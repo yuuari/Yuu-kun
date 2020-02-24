@@ -1,3 +1,5 @@
+<script> //<![CDATA[
+/* Youtube Lazy Load */
 ( function() {
     var youtube = document.querySelectorAll( ".youtube" );
     for (var i = 0; i < youtube.length; i++) {
@@ -17,3 +19,4 @@
                 } );    
     };
 } )();
+//]]> </script>
